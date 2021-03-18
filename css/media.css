@@ -1,0 +1,838 @@
+@media (min-width: 1400px) {
+/* === Responsive for large device like Personal Computer screen or tv screen === */
+
+    /* === Blog section start === */
+
+    #blogs .date {
+        margin-top: 27px;
+    }
+
+    /* === Blog section end === */
+    @media (max-width: 1500px) {
+        /* === Team section end === */
+
+        #team .right {
+            right: -35px;
+            z-index: 10;
+        }
+
+        #team .left {
+            left: -35px;
+            z-index: 10;
+        }
+
+        /* === Team section end === */
+    }
+
+}
+@media (max-width: 1399px) and (min-width: 1200px) {
+/* === Responsive for large device like laptop or Personal Computer screen === */
+    
+    /* === Team section start === */
+    #team .right {
+        right: -29px;
+        z-index: 10;
+    }
+    
+    #team .left {
+        left: -29px;
+        z-index: 10;
+    }
+
+    /* === Team section end === */
+    /* === Blog section start === */
+
+    #blogs .date {
+        margin-top: 15px;
+    }
+
+    /* === Blog section end === */
+    @media (min-width: 1250px) {
+        /* === Team section start === */
+        #team .right {
+            right: -50px;
+            z-index: 10;
+        }
+        
+        #team .left {
+            left: -50px;
+            z-index: 10;
+        }
+
+        /* === Team section end === */
+    }
+
+    /* === Team section end === */
+    /* === Our advantages section start === */
+
+    #advantages .slider-3d .slick-slider {
+        margin-left: -13%;
+        margin-right: -14%;
+    }
+
+    /* === Our advantages section end === */
+    /* === error section start === */
+
+    #error .e-404 {
+        font: 700 450px/400px 'Montserrat', sans-serif;
+        color: white;
+        padding-top: 150px;
+    }
+
+    /* === error section end === */
+
+}
+@media (max-width: 1199px) and (min-width: 992px) {
+/* === Responsive for large device like large tab or laptop === */
+
+    @media (max-width: 1126px) {
+        #blogs .date {
+            display: none !important;
+        }
+    }
+    
+    /* === Navbar section start === */
+
+    .navbar .search {
+        margin-left: 30px;
+    }
+
+    .navbar .search-animation {
+        margin-left: 30px;
+    }
+
+    .navbar .search-bar-animation {
+        width: 150px !important;
+    }
+
+    /* === Navbar section end === */
+    /* === Banner section start === */
+
+    #banner .image {
+        height: 600px;
+    }
+
+    #banner .image img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    /* === Banner section end === */
+    /* === Our advantages section start === */
+
+    #advantages .slider-3d .slick-slider {
+        margin-left: -18%;
+        margin-right: -4%;
+    }
+
+    /* === Our advantages section end === */
+    /* === Blog section start === */
+
+    #blogs .date {
+        margin-top: 10px;
+    }
+
+    /* === Blog section end === */
+    /* === error section start === */
+
+    #error .e-404 {
+        font: 700 450px/400px 'Montserrat', sans-serif;
+        color: white;
+        padding-top: 150px;
+    }
+
+    /* === error section end === */
+
+}
+@media (max-width: 991px) and (min-width: 768px) {
+/* === Responsive for medium device like small or large tab === */
+
+    /* === Navbar section start === */
+
+    .navbar {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        background: #202020;
+    }
+
+    .navbar-animation {
+        background: #202020;
+    }
+
+    .navbar .nav-item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: rgba(0, 0, 0,.2);
+        margin-top: 5px;
+    }
+
+    .navbar .nav-link {
+        color: #ffffff;
+        font: 700 20px/28px 'Oswald', sans-serif;
+    }
+
+    .navbar .nav-link::before {
+        width: 90%;
+    }
+
+    .navbar .nav-link::after {
+        display: none;
+    }
+
+    /* === Navbar section end === */
+    /* === Banner section start === */
+
+    #banner .image {
+        height: 500px;
+    }
+
+    #banner .image img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    #banner {
+        margin-top: -72px;
+    }
+
+    #banner .slider-overlay {
+        padding-top: 72px;
+    }
+
+    /* === Banner section end === */
+    /* === Service section start === */
+
+    #service {
+        padding-bottom: 50px;
+        padding-top: 90px;
+    }
+
+    /* === Service section end === */
+    /* === How we do it section start === */
+
+    #how .overlay {
+        padding-bottom: 0px;
+    }
+    /* === How we do it section end === */
+    /* === Our portfolio section start === */
+
+    #portfolio {
+        padding-top: 70px;
+    }
+
+    #portfolio .header {
+        padding-bottom: 70px;
+    }
+
+    /* === Our portfolio section end === */
+    /* === About us section start === */
+
+    #about-us {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+
+    /* === About us section end === */
+    /* === Our achivment section start === */
+    #achivment .overlay {
+        padding-bottom: 40px;
+    }
+    #achivment .counter-up {
+        padding-top: 15px;
+        padding-bottom: 20px;
+    }
+
+    #achivment .counter {
+        font: 700 35px/50px 'Oswald', sans-serif;
+    }
+
+    #achivment .counter-info {
+        font: 400 15px/23px 'Oswald', sans-serif;
+    }
+
+    /* === Our achivment section end === */
+    /* === Team section start === */
+
+    #team {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+
+    /* === Team section end === */
+    /* === Our advantages section start === */
+    #advantages {
+        padding-top: 70px;
+    }
+
+    #advantages .slider-3d .slick-list {
+        padding-left: 10%!important;
+        padding-right: 10%!important;
+    }
+
+    #advantages .slider-3d .slick-slider {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    /* === Our advantages section end === */
+    /* === Our clients section start === */
+    
+    #clients {
+        padding-top: 70px;
+    }
+    #clients .header {
+        padding-bottom: 80px;
+    }
+
+    /* === Our clients section end === */
+    /* === Our community section start === */
+
+    #blogs {
+        padding-top: 80px;
+    }
+
+    /* === Our community section end === */
+    /* === error section start === */
+
+    #error .e-404 {
+        font: 700 350px/400px 'Montserrat', sans-serif;
+        color: white;
+        padding-top: 150px;
+    }
+
+    /* === error section end === */
+    /* === blogs page css start === */
+
+    #blogs-page .info a {
+        font: 400 16px/25px 'Oswald', sans-serif;
+    }
+
+    #blogs-page .info p {
+        font: 400 13px/20px 'Roboto', sans-serif;
+        padding-top: 5px;
+    }
+
+    #blogs-page .info .date {
+        font: 400 13px/20px 'Roboto', sans-serif;
+        padding-top: 7px;
+    }
+
+    #blogs-page .our-post, #blogs-page .newslatter {
+        padding: 32px 10px 32px 10px;
+    }
+
+    #blogs-page .post-item a {
+        font: 400 12px/15px 'Roboto', sans-serif;
+    }
+
+    #blogs-page .post-item .date span {
+        font: 400 11px/10px 'Roboto', sans-serif;
+    }
+
+    /* === blogs page css end === */
+    
+    
+}
+@media (max-width: 767px) and (min-width: 576px) {
+/* === Responsive for small device like potrait phone or small tab === */
+
+    /* === Navbar section start === */
+
+    #prenav .icon {
+        display: none;
+    }
+
+    .navbar {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        background: #202020;
+    }
+
+    .navbar-animation {
+        background: #202020;
+    }
+
+    .navbar .nav-item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: rgba(0, 0, 0,.2);
+        margin-top: 5px;
+    }
+
+    .navbar .nav-link {
+        color: #ffffff;
+        font: 700 20px/28px 'Oswald', sans-serif;
+    }
+
+    .navbar .nav-link::before {
+        width: 90%;
+    }
+
+    .navbar .nav-link::after {
+        display: none;
+    }
+
+    /* === Navbar section end === */
+    /* === Banner section start === */
+
+    #banner .image {
+        height: 500px;
+    }
+
+    #banner .image img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    #banner {
+        margin-top: -72px;
+    }
+
+    #banner .slider-overlay {
+        padding-top: 72px;
+    }
+
+    #banner h1 {
+        font: 700 50px/60px 'Oswald', sans-serif;
+        color: white;
+    }
+
+    #banner .banner-button {
+        font: 700 20px/30px 'Oswald', sans-serif;
+        padding: 11px 25px;
+    }
+
+    /* === Banner section end === */
+    /* === Service section start === */
+
+    #service {
+        padding-bottom: 70px;
+    }
+
+    /* === Service section end === */
+    /* === How we do it section start === */
+
+    #how .overlay {
+        padding-bottom: 0px;
+    }
+    /* === How we do it section end === */
+    /* === Our portfolio section start === */
+
+    #portfolio {
+        padding-top: 80px;
+    }
+
+    /* === Our portfolio section end === */
+    /* === Our clients section start === */
+
+    #clients {
+        padding-top: 70px;
+    }
+    
+    #clients .header {
+        padding-bottom: 80px;
+    }
+
+    /* === Our clients section end === */
+    /* === About us section start === */
+
+    #about-us {
+        padding-top: 80px;
+        padding-bottom: 20px;
+    }
+
+    #about-us .header {
+        padding-bottom: 70px;
+    }
+
+    /* === About us section end === */
+    /* === Team section start === */
+
+    #team {
+        padding-top: 70px;
+        background: #FBFBFB;
+        padding-bottom: 40px;
+    }
+
+    /* === Team section end === */
+    /* === Our advantages section start === */
+
+    #advantages {
+        padding-top: 50px;
+    }
+
+    #advantages .slider-3d .slick-list {
+        padding-left: 8%!important;
+        padding-right: 8%!important;
+    }
+
+    #advantages .slider-3d .slick-slider {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    /* === Our advantages section end === */
+    /* === Our community section start === */
+
+    #blogs {
+        padding-top: 80px;
+    }
+
+    /* === Our community section end === */
+    /* === error section start === */
+
+    #error .e-404 {
+        font: 700 250px/220px 'Montserrat', sans-serif;
+        color: white;
+        padding-top: 150px;
+    }
+
+    /* === error section end === */
+    /* === blog page css start === */
+
+    #blogs-page .info a {
+        font: 400 16px/25px 'Oswald', sans-serif;
+    }
+
+    #blogs-page .info p {
+        font: 400 13px/20px 'Roboto', sans-serif;
+        padding-top: 5px;
+    }
+
+    #blogs-page .info .date {
+        font: 400 13px/20px 'Roboto', sans-serif;
+        padding-top: 7px;
+    }
+
+
+    /* === blog page css end === */
+    /* === expand blog page css start === */
+
+    .expand-blog .title p {
+        font: 500 30px/40px 'Oswald', sans-serif;
+    }
+
+    /* === expand blog page css end === */
+
+
+}
+
+@media (max-width: 575.98px) {
+/* === Responsive for extra small device like mobile phone === */
+
+    /* === Prenav section start === */
+
+    #prenav a {
+        font: 400 14px/20px 'Roboto', sans-serif;
+    }
+
+    #prenav .icon {
+        display: none;
+    }
+
+    #prenav .prenav-item {
+        justify-content: left;
+    }
+
+    #prenav .trouble {
+        display: none;
+    }
+
+    /* === Prenav section end === */
+    /* === Navbar section start === */
+
+    .navbar {
+        padding-top: 10px !important;
+        padding-bottom: 10px !important;
+        background: #202020;
+    }
+
+    .navbar-animation {
+        background: #202020;
+    }
+
+    .navbar .nav-item {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background: rgba(0, 0, 0,.2);
+        margin-top: 5px;
+    }
+
+    .navbar .nav-link {
+        color: #ffffff;
+        font: 700 16px/21px 'Oswald', sans-serif;
+    }
+
+    .navbar .nav-link::before {
+        width: 90%;
+    }
+
+    .navbar .nav-link::after {
+        display: none;
+    }
+
+    /* === Navbar section end === */
+    /* === Banner section start === */
+
+    #banner .image {
+        height: 450px;
+    }
+
+    #banner .image img {
+        object-fit: cover;
+        height: 100%;
+    }
+
+    #banner {
+        margin-top: -72px;
+    }
+
+    #banner .slider-overlay {
+        padding-top: 72px;
+    }
+
+    #banner h1 {
+        font: 700 30px/40px 'Oswald', sans-serif;
+        color: white;
+    }
+
+    #banner .banner-button {
+        font: 700 14px/20px 'Oswald', sans-serif;
+        padding: 11px 25px;
+    }
+
+    /* === Banner section end === */
+    /* === Service section start === */
+
+    #service {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    #service .icon {
+        width: 100px;
+        height: 100px;
+        top: -50px;
+    }
+
+    #service .icon-sub {
+        width: 85px;
+        height: 85px;
+    }
+
+    /* === Service section end === */
+    /* === How we do it section start === */
+
+    #how .overlay {
+        padding-bottom: 20px;
+    }
+
+    /* === How we do it section end === */
+    /* === Our portfolio section start === */
+
+    #portfolio {
+        padding-top: 60px;
+    }
+
+    /* === Our portfolio section end === */
+    /* === About us section start === */
+
+    #about-us {
+        padding-top: 60px;
+        padding-bottom: 30px;
+    }
+
+    /* === About us section end === */
+    /* === Our team section start === */
+
+    #team {
+        padding-bottom: 50px;
+        padding-top: 60px;
+    }
+
+    /* === Our team section end === */
+    /* === Our advantages section start === */
+
+    #advantages {
+        padding-top: 60px;
+    }
+
+    #advantages .info-slider {
+        margin-top: 100px;
+    }
+
+    #advantages .slider-3d .slick-list {
+        padding-left: 8%!important;
+        padding-right: 8%!important;
+    }
+
+    #advantages .slider-3d .slick-slider {
+        margin-left: -2%;
+        margin-right: -2%;
+    }
+
+    /* === Our advantages section end === */
+    /* === Our clients section start === */
+    
+    #clients .header {
+        padding-bottom: 70px;
+    }
+
+    /* === Our clients section end === */
+    /* === Our community section start === */
+
+    #blogs {
+        padding-top: 80px;
+    }
+
+    /* === Our community section end === */
+    /* === Footer section start === */
+
+    #footer .contact-info .icon a {
+        margin-right: 5px;
+    }
+
+    /* === Footer section end === */
+    /* === Back to top === */
+
+    .back-to-top {
+        width: 35px;
+        height: 35px;
+        right: 20px;
+    }
+
+    .back-to-top-animation {
+        bottom: 40px;
+    }    
+
+    /* === Back to top === */
+    /* === error section start === */
+
+    #error .e-404 {
+        font: 700 150px/220px 'Montserrat', sans-serif;
+        color: white;
+        padding-top: 150px;
+    }
+
+    /* === error section end === */
+    /* === blogs page css start === */
+
+    #blogs-page .our-post, #blogs-page .newslatter {
+        padding: 32px 10px 32px 10px;
+    }
+
+    #blogs-page .blog-item {
+        padding-right: 0px;
+    }
+
+    #blogs-page .post-item a {
+        font: 400 12px/15px 'Roboto', sans-serif;
+    }
+
+    #blogs-page .post-item .date span {
+        font: 400 11px/10px 'Roboto', sans-serif;
+    }
+
+    #blogs-page .date span {
+        padding-right: 30px;
+    }
+
+    #blogs-page .blogs-page-image-info-slider a {
+        font: 400 18px/25px 'Roboto', sans-serif;
+    }
+
+    #blogs-page .blogs-page-image-info-slider .slider-item {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    /* === blogs page css end === */
+    /* === expand blog page css start === */
+
+    .expand-blog .title {
+        padding-top: 3%;
+    }
+
+    .expand-blog .title p {
+        font: 500 20px/30px 'Oswald', sans-serif;
+    }
+
+    .expand-blog .author {
+        padding-top: 50px;
+        padding-bottom: 70px;
+        margin-top: -30px;
+    }
+
+    .expand-blog .autohor-image {
+        width: 100px;
+        height: 100px;
+        border: 5px solid #FFCC00;
+        top: -50px;
+        left: 50%;
+    }
+
+    /* === expand blog page css end === */
+
+    @media (min-width: 480px) {
+
+        #advantages .slider-3d .slick-list {
+            padding-left: 20%!important;
+            padding-right: 20%!important;
+        }
+
+        #blogs .mega-blog .blog-image {
+            width: 40% !important;
+        }
+    
+        #blogs .mega-blog .blog-info {
+            width: 60% !important;
+        }
+
+        #blogs .mega-blog .blog-info a {
+            font: 400 16px/25px 'Oswald', sans-serif;
+        }
+
+        #blogs .mega-blog .blog-info p {
+            font: 400 12px/16px 'Roboto', sans-serif;
+        }
+
+        #blogs .date {
+            margin-top: 12px;
+            font: 400 13px/17px 'Roboto', sans-serif;
+            color: #707070;
+        }
+
+        #error .e-404 {
+            font: 700 200px/220px 'Montserrat', sans-serif;
+            color: white;
+            padding-top: 150px;
+        }
+
+        .expand-blog .title {
+            padding-top: 10%;
+        }
+    
+        .expand-blog .title p {
+            font: 500 30px/40px 'Oswald', sans-serif;
+        }
+        
+
+    }
+
+    @media (max-width: 350px) {
+
+        #prenav a {
+            font-size: 13px;
+        }
+    }
+
+    @media (max-width: 312px) {
+        #prenav a {
+            font-size: 12px;
+        }
+    }
+
+}
